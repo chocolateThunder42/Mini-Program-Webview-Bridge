@@ -96,10 +96,7 @@ Page({
     view: "Window",
     which: 1,
     x: 598,
-    y: 673,
-    page: "index.html,
-    timestamp: "2022-03-22T18:29:57.900Z,
-    url: "http://localhost:3000/sample-site/index.html"
+    y: 673
   },
   page: "index.html",
   timestamp: "2022-03-22T18:29:57.900Z",
