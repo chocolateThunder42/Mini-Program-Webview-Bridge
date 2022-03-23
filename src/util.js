@@ -140,12 +140,11 @@ function sayHello(event) {
     timestamp: (new Date()).toISOString()
   };
 
-  //Dev stuff
-  console.log('Message:', msg, FALSEALARMFLAG);
-  document.getElementById('messages').innerHTML = `${event.type} event: ${event.target.tagName || event.message} tag`;
-  //End
-  
-  // postMessage(msg);
+  if (msg.url.indexOf('/sample-site/index.html') > -1) {
+    document.getElementById('messages').innerHTML = `${event.type} event: ${event.target.tagName || event.message} tag`;
+  }
+
+  postMessage(msg);
 }
 
 function extractEventValues(event) {
