@@ -1,6 +1,6 @@
-# README #
+# Mini Program Webview Bridge #
 
-** This library should only be used for development and testing purposes only. It is not intended for production use. **
+**This library should be used for development and testing purposes only. It is not intended for production use.**
 
 This library is used to simplify the communication process between your [Mini Program](https://developer.vodapay.vodacom.co.za/mini-program) and [web-view](https://developer.vodapay.vodacom.co.za/docs/miniprogram_vodacom/mpdev/component_open_web-view).  
 It was originally intended for logical analysis within a web-view but can be modified for other dev usecases e.g
@@ -16,7 +16,7 @@ To start the app just run `npm run serve`. You can use the sample site provided 
 Inside your HTML document, include the following before the closing body tag:
 
 ```
-    <!-- Rest of your app -->
+    <!-- Rest of your web app -->
     <script src="https://appx/web-view.min.js" type="text/javascript"></script>
     <script src="path/to/Mini-Program-Webview-Bridge/app.js" type="module"></script> <!-- Remove this script tag when releasing to production -->
   </body>
@@ -89,7 +89,7 @@ Page({
     screenX: 598,
     screenY: 758,
     shiftKey: false,
-    srcElement: '<input id="message-box" name="message-box" type="text">​​',
+    srcElement: '<input id="message-box" name="message-box" type="text">',
     target: '<input id="message-box" name="message-box" type="text">',
     timeStamp: 69239,
     type: "click",
@@ -108,11 +108,3 @@ Page({
 
 ```
 
-
-
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
