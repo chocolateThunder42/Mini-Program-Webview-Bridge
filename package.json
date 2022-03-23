@@ -1,0 +1,16 @@
+{
+  "name": "mini-adobe-analytics-webview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "serve": "lite-server -c configs/bs-config.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

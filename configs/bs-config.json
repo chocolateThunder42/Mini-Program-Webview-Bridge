@@ -1,0 +1,3 @@
+{
+  "files": ["./sample-site/**/*.{html,css,js}", "./src/*.{js}"]
+}

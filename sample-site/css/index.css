@@ -1,0 +1,55 @@
+.background
+{
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+h1
+{
+  font-size: 130%;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#message-box
+{
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+button
+{
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 35px;
+  background-color: lime;
+  margin: 2% auto;
+  left: 42%;
+}
+
+#messages
+{
+  margin-top: 4%;
+}
+
+.title
+{
+  display: block;
+}
+
+.webpage
+{
+  border: 2px solid brown;
+  background: turquoise;
+}
+
+.mini
+{
+  text-align: right;
+  border: 2px solid purple;
+  background: gray;
+}
